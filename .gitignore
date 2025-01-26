@@ -4,4 +4,4 @@
 *.fig
 .DS_Store
 node_modules
-main/output.css
+main/output.css 

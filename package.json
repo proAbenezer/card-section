@@ -1,17 +1,25 @@
 {
   "name": "card-section",
   "version": "1.0.0",
-  "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "description": "",
+  "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ./main/output.css ",
-    "start": "npm run build && serve main",
+    "start": "npm run build",
+    "build": "npx tailwindcss -i ./input.css -o ./main/output.css",
     "watch": "npx tailwindcss -i ./input.css -o ./main/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proAbenezer/card-section.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/proAbenezer/card-section/issues"
+  },
+  "homepage": "https://github.com/proAbenezer/card-section#readme",
+  "dependencies": {
     "tailwindcss": "^4.0.0"
   }
 }
