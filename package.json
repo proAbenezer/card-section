@@ -4,8 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "npm run build --dev",
-    "build": "npx tailwindcss -i ./input.css -o ./main/output.css --dev",
+    "start": "npm run build",
+    "build": "npx tailwindcss -i ./input.css -o ./main/output.css ",
     "watch": "npx tailwindcss -i ./input.css -o ./main/output.css --watch"
   },
   "repository": {
